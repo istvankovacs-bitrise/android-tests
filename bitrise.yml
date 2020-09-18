@@ -10,7 +10,7 @@ trigger_map:
 workflows:
   deploy:
     description: |
-      ## How to get a signed APK
+      ## How to get a signed APK w
 
       This workflow contains the **Sign APK** step. To sign your APK all you have to do is to:
 
