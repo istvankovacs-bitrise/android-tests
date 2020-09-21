@@ -10,7 +10,7 @@ trigger_map:
 workflows:
   deploy:
     description: |
-      ## How to get a signed APK w
+      ## How to get a signed APK
 
       This workflow contains the **Sign APK** step. To sign your APK all you have to do is to:
 
@@ -100,10 +100,10 @@ app:
   envs:
   - opts:
       is_expand: false
-    PROJECT_LOCATION: subm
+    PROJECT_LOCATION: "."
   - opts:
       is_expand: false
     MODULE: app
   - opts:
       is_expand: false
-    VARIANT: ''
+    VARIANT: release
